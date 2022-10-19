@@ -182,11 +182,13 @@ input[type="search"] {
 .dash-icon {
 	width: 43px;
 	margin-right: 8px;
+	color: #fff;
 }
 
 .icon {
 	width: 20px;
 	margin-right: 20px;
+	color: #fff;
 }
 
 .side-bar li {
