@@ -217,4 +217,37 @@ input[type="search"] {
 .main-content {
 	background-color:  rgba(226,232,240,255);
 	grid-area: 2 / 2 / 3 / 3;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	max-height: 100%;
+	padding: 30px 20px 40px 20px;
+}
+
+.project-display {
+	grid-column: 1 / 2;
+	grid-row: 1 / 3;
+	margin-right: 20px;
+}
+
+.first-heading {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.project-container {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 15px;
+	column-gap: 20px;
+}
+
+.project {
+	background-color: #fff;
+	width: 42%;
+	height: 150px;
+	border-radius: 5px;
+	box-shadow: 0px 2px 3px rgb(175, 175, 175);
+	padding: 30px 20px 20px 20px;
 }
