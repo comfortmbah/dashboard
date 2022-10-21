@@ -92,6 +92,7 @@ input[type="search"] {
 	height: 25px;
 	border: none;
 	border-radius: 13px;
+	padding-left: 10px;
 }
 
 .profile-bar {
